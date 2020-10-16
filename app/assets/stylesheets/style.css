@@ -1,0 +1,181 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+header {
+  height: 50px;
+  background-color: black;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+
+.heading {
+  width: 50%;
+  margin-left: 30px;
+  color: white;
+  text-shadow: 1px 3px 0 black;
+}
+
+.navbar {
+  width: 20%;
+  padding: 20px;
+  color: white;
+}
+
+.nav-lists {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+
+.contents {
+  background-image: url('gotoeat2.jpg');
+  height: 100%;
+  width: 100%;
+}
+
+.first-view{
+  height: 100vh;
+  background-color: black;
+}
+
+.top-image {
+  height: 120%;
+  width: 100%;
+}
+
+
+.upper-content{
+  height: 450px;
+  background-color:black;
+  margin: 0 160px;
+  padding-top: 300px;
+  color: white;
+}
+
+.heading-name {
+  text-align: center;
+  border-bottom: 2px solid red;
+  width: 200px;
+  margin: 40px auto;
+  color: white;
+}
+
+.messages {
+  width: 50vw;
+  margin: 0 auto;
+  color: white;
+}
+
+.message {
+  display: flex;
+  font-size: 18px;
+  margin: 0 0 16px 70px;
+  color: white;
+}
+
+.message-date {
+  padding-right: 40px;
+}
+
+
+.middle-content{
+  height: 450px;
+  background-color: black;
+  margin: 0 160px;
+}
+
+.style-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 0;
+}
+
+.go-image {
+  height: 300px;
+  margin: 20px 30px;
+}
+
+.case-name {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid yellow;
+}
+
+.text-name {
+  font-size: 32px;
+  text-align: center;
+  color: pink;
+}
+
+p {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.bottom-content {
+  background-color:black;
+  height: 1600px ;
+  margin: 0 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-field, .large-field {
+  width: 800px;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #b5aaaa;
+  display: block;
+}
+
+.small-field {
+  margin: 0 auto 15px;
+}
+
+.large-field {
+  height: 200px;
+  margin: 0 auto 30px;
+}
+
+.send {
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid white;
+  background-color: lightblue;
+  color:white;
+  display: block;
+}
+
+footer {
+  height: 50px;
+  background-color: gray;
+  text-align: center;
+  color: gray;
+}
