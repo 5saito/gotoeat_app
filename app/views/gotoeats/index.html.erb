@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Go To Eat</title>
+  </head>
+  <body>
+    <div class="contents">
+      <div class="first-view">
+        <%= image_tag 'gotoeat_top.jpg', class:"top-image",size: '100x200' %>
+      </div>
+      <div class="upper-content">
+                <h2 class="heading-name">新着情報</h2>
+        <ul class="messages">
+          <li class="message">
+            <div class="message-date">2019/10/06</div>
+            <div>【新規のお客さま限定】<b>10％OFF</b>キャンペーン</div>
+          </li>
+          <li class="message">
+            <div class="message-date">2019/10/03</div>
+            <div>うれしい<b>ポイントアップキャンペーン</b></div>
+          </li>
+          <li class="message">
+            <div class="message-date">2019/09/27</div>
+            <div>2020年成人式 ご予約承ります</div>
+          </li>
+          <li class="message">
+            <div class="message-date">2018/10/03</div>
+            <div>うれしい<b>ポイントアップキャンペーン</b></div>
+          </li>
+          <li class="message">
+            <div class="message-date">2018/09/27</div>
+            <div>2019年成人式 ご予約承ります</div>
+          </li>
+        </ul>
+      </div>
+      <div class="middle-content">
+        <h2 class="heading-name">どのくらいお得？</h2>
+        <ul class="style-list">
+          <li>
+            <h4 class="case-name">2人でランチ</h4>
+            <%= image_tag'gotoeatlunch.jpeg', class:'go-image' %>
+            <h4 class="text-name">贅沢ランチも！</h4>
+            <p>特別ポイント500pt<br>
+              ×2人＝1,000pt<br>
+              もらえる！</p>
+          </li>
+          <li>
+            <h4 class="case-name">４人でディナー</h4>
+            <%= image_tag'gotoeatdinner.jpeg', class:'go-image' %>
+            <h4 class="text-name">人数×1150PTに！</h4>
+            <P>3x通常ポイント150pt×4人＝600pt<br>
+              特別ポイント1000pt×4人＝4000pt<br>
+              上記合計で4600ptもらえる！</P>
+          </li>
+          <li>
+            <h4 class="case-name">500円のランチ</h4>
+            <%= image_tag'gotoeatlunch2.jpeg', class:'go-image' %>
+            <h4 class="text-name">２回目以降無料！！</h4>
+            <p>特別ポイント500pt×1人＝500pt<br>
+              次回のランチ代500円-<br>
+              500pt利用=実質0円！</p>
+          </li>
+        </ul>
+      </div>
+      <div class="bottom-content">
+        <form class="contact-form">
+          <h2 class="heading-name">FAQ</h2>
+          <input type="text" placeholder="名前" class="small-field">
+          <input type="text" placeholder="質問件名" class="small-field">
+          <textarea placeholder="質問内容" class="large-field"></textarea>
+          <input type="submit" value="送信" class="send">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

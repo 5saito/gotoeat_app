@@ -1,0 +1,2 @@
+module GotoeatsHelper
+end
