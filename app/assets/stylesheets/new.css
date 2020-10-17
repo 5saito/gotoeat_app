@@ -1,0 +1,43 @@
+/* new.htmlのCSS */
+
+.new-contents {
+  color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.new-first-view{
+  height: 100vh;
+  background-color: black;
+}
+
+.new-upper-content{
+  height: 100vh;
+  background-color:black;
+  padding-top: 300px;
+  color: black;
+}
+
+.new-bottom-content {
+  background-color:black;
+  height: 1600px ;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-heading-name {
+  text-align: center;
+  border-bottom: 2px solid white;
+  width: 200px;
+  margin: 5px auto;
+  color: yellow;
+  font-size: 72px;
+}
+
+.new-message-date {
+  padding-right: 40px;
+  color: beige;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}

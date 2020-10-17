@@ -179,3 +179,13 @@ footer {
   text-align: center;
   color: gray;
 }
+
+.campaign {
+  color: white;
+  text-decoration: none;
+}
+
+.top-page {
+  color: beige;
+  text-decoration: none;
+}

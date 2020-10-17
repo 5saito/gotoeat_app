@@ -12,11 +12,11 @@
   <body>
     <header>
       <div class="heading">
-        <h1 class="title">栃木県内版　GO TO EAT　キャンペーン</h1>
+        <h1 class="title"><%= link_to '栃木県内版　GO TO EAT　キャンペーン', root_path, method: :get, class:"top-page" %></h1>
       </div>
       <div class="navbar">
         <ul class="nav-lists">
-          <li>キャンペーン概要</li>
+          <li><%= link_to 'キャンペーン概要', new_gotoeat_path , method: :get, class: "campaign" %></li>
           <li>計算シミュレーター</li>
         </ul>
       </div>
