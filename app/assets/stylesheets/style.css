@@ -71,7 +71,7 @@ li {
   height: 450px;
   background-color:black;
   margin: 0 160px;
-  padding-top: 300px;
+  padding-top: 250px;
   color: white;
 }
 
@@ -79,7 +79,7 @@ li {
   text-align: center;
   border-bottom: 2px solid red;
   width: 200px;
-  margin: 40px auto;
+  margin: 10px auto;
   color: white;
 }
 
@@ -180,6 +180,11 @@ footer {
   color: gray;
 }
 
+.simulation {
+  color: white;
+  text-decoration: none;
+}
+
 .campaign {
   color: white;
   text-decoration: none;
@@ -190,7 +195,84 @@ footer {
   text-decoration: none;
 }
 
-.simulation {
-  color: white;
+
+.simulation-form {
+  background-color: black;
+  color: black;
   text-decoration: none;
+  height: 100vh;
+}
+
+.container {
+  background-color: black;
+  padding-top: 100px;
+}
+
+h1 {
+  color: red;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.simulation-form {
+  width: 980px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.simulation-form__label {
+  color: black;
+  display: block;
+  line-height: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.simulation-form__field {
+  margin-top: 100px ;
+  margin-bottom: 20px;
+}
+
+.simulation-form__field--left {
+ 
+  width: 70%;
+  padding-right: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.simulation-box {
+  width: 50%;
+  line-height: 30px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.simulation-form__action-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #38aef0;
+  border: 0;
+  margin-left: 450px;
+}
+.lunch {
+  font-size: 18px;
+}
+
+.sample_h1 {
+  font-size: 25px;
+  color: orange;
+  margin-top: 100px;
+}
+
+
+.sample_h2{
+  font-size: 25px;
+  color: purple;
+  margin-top: 100px;
 }
