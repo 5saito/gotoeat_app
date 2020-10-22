@@ -1,24 +1,42 @@
-# README
+# アプリ名
+* Go To Eats in Tochigi
+# 概要 
+* ケース分けした概要とキャンペーンの説明  
+* 実際に使用する時間帯をランチ、ディナーに分けてポイントを計算する  
+# 本番環境  
+https://gotoeat-app.herokuapp.com/
+# 製作背景（意図）
+付与されるポイントは全国一律での設定ですが、希望者が購入して使用する食事券は、  
+地域により値段にバラつきがあるため、栃木県という限定的な形での作成を行いました。  
+他サイトでは計算ページまで辿り着くまでが長く、ログイン機能なども付けずにシンプルに  
+することを他との差別化とし作成しました。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# DEMO  
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+# 工夫したポイント
+シンプルでわかりやすいページを作成したこと、  
+イラストレーターを使用してのトップページ作成がポイントです。
+必要ないであろう機能（ログイン、ログアウト）は排除、
+ページも最小限のものを用意しました。
 
-* Database initialization
+# 開発環境
+## バックエンド  
+Ruby, Ruby on Rails  
+## フロントエンド
+Javascript,JQuery
+## データベース  
+MySQL
+## 本番環境  
+heroku
+## ソース管理  
+GitHub,GitHubDesktop
+## エディタ  
+VSCode
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# 今後の課題、実装したい機能  
+* トップページから他サイトへのリンク作成
+* 計算シミュレーターのビューのアップデート
