@@ -1,24 +1,58 @@
-# README
+# アプリ名
+* Go To Eats in Tochigi
+# 概要 
+* ケース分けした概要とキャンペーンの説明  
+* 実際に使用する時間帯をランチ、ディナーに分けてポイントを計算する  
+# 本番環境  
+https://gotoeat-app.herokuapp.com/
+# 製作背景（意図）
+付与されるポイントは全国一律での設定ですが、希望者が購入して使用する食事券は、  
+地域により値段にバラつきがあるため、栃木県という限定的な形での作成を行いました。  
+また、年配の方に需要が高い印象を受けたので、その面でも細かいフォントではなく  
+サイズを大きめに設定して見やすさ、シンプルさを重視したポートフォリオにしました。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# DEMO  
 
-Things you may want to cover:
+### トップページ
 
-* Ruby version
+![gotoeat1](https://user-images.githubusercontent.com/69103287/96865892-7cbf4000-14a5-11eb-955f-5705bb4052e0.gif)  
+ヘッド部分はイラストレーターで作成し画像として取り込みました。
+そのため、リンク先などは今後追加で実装予定です。
 
-* System dependencies
+### キャンペーン概要ページ  
 
-* Configuration
+![gotoeat2](https://user-images.githubusercontent.com/69103287/96865956-95c7f100-14a5-11eb-915f-c7aa8ad9b6d2.gif)  
+フォントを大きめに設定して見やすさという面に気をつけ、作成しました。
 
-* Database creation
+### 計算シミュレーションページ
 
-* Database initialization
+![gotoeat3](https://user-images.githubusercontent.com/69103287/96865988-a0828600-14a5-11eb-90d7-d0181bb39457.gif)  
+人数を入力したら、ポイント付与額がわかるように、シンプルに作成しました。
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+# 工夫したポイント
+シンプルでわかりやすいページを作成したこと、  
+イラストレーターを使用してのトップページ作成がポイントです。
+必要ないであろう機能（ログイン、ログアウト）は排除、
+ページも最小限のものを用意しました。
+
+# 開発環境
+## バックエンド  
+Ruby, Ruby on Rails  
+## フロントエンド
+Javascript,JQuery
+## データベース  
+MySQL
+## 本番環境  
+heroku
+## ソース管理  
+GitHub,GitHubDesktop
+## エディタ  
+VSCode
+
+# 今後の課題、実装したい機能  
+* トップページから他サイトへのリンク作成
+* 計算シミュレーターのビューのアップデート
+* 質問フォーマットはデータとして保存する
