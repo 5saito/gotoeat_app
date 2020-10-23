@@ -54,12 +54,26 @@ li {
   background-image: url('gotoeat2.jpg');
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 .first-view{
   height: 100vh;
   background-color: black;
 }
+
+.link-site {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  margin: 5px;
+}
+
+a {
+  font-size: 36px;
+  text-decoration: none;
+  color: white;
+  }
 
 .top-image {
   height: 120%;
