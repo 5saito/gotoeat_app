@@ -36,6 +36,7 @@ header {
   width: 20%;
   padding: 20px;
   color: white;
+  font-size: 20px;
 }
 
 .nav-lists {
@@ -43,12 +44,13 @@ header {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  font-size: 14px;
 }
 
 li {
   list-style: none;
-}
 
+}
 
 .contents {
   background-image: url('gotoeat2.jpg');
@@ -57,23 +59,27 @@ li {
   position: relative;
 }
 
+.link-site {
+  position: absolute;
+  top: 200px;
+  left: 1200px;
+  margin: 5px;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+.site {
+  color: white;
+  text-decoration: none;
+  border-bottom: 5px solid red;
+}
+
+
+
 .first-view{
   height: 100vh;
   background-color: black;
 }
-
-.link-site {
-  position: absolute;
-  top: 200px;
-  right: 0;
-  margin: 5px;
-}
-
-a {
-  font-size: 36px;
-  text-decoration: none;
-  color: white;
-  }
 
 .top-image {
   height: 120%;
@@ -95,6 +101,7 @@ a {
   width: 200px;
   margin: 10px auto;
   color: white;
+  font-size: 24px;
 }
 
 .messages {

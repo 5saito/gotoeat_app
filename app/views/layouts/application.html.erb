@@ -9,21 +9,21 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <header>
-      <div class="heading">
-        <h1 class="title"><%= link_to '栃木県内版　GO TO EAT　キャンペーン', root_path, method: :get, class:"top-page" %></h1>
-      </div>
-      <div class="navbar">
-        <ul class="nav-lists">
-          <li><%= link_to 'キャンペーン概要', new_gotoeat_path, method: :get, class: "campaign" %></li>
-          <li><%= link_to '計算シミュレーション', gotoeats_simulation_path, method: :get, class: "simulation" %></li>
-        </ul>
-      </div>
-    </header>
-    <%= yield %>
-    <footer>
+ <body>
+  <header>
+   <div class="heading">
+      <h1 class="title"><%= link_to '栃木県内版 GO TO EAT キャンペーン', root_path, method: :get, class:"top-page" %></h1>
+   </div>
+   <div class="navbar">
+    <ul class="nav-lists">
+        <li><%= link_to 'キャンペーン概要', new_gotoeat_path, method: :get, class: "campaign" %></li>
+        <li><%= link_to '計算シミュレーション', gotoeats_simulation_path, method: :get, class: "simulation" %></li>
+    </ul>
+   </div>
+  </header>
+  <%= yield %>
+   <footer>
       <p>Copyright(C) GO TO EAT SIMULATION.</p>
-    </footer>
-  </body>
+   </footer>
+ </body>
 </html>
